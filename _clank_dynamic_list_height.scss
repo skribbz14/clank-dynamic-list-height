@@ -1,0 +1,14 @@
+/*
+//
+/// This scss is only meant for an example, it does not need to be included */
+
+.clank_dynamic_height{
+  
+  &--test_list{
+    @include transition(max-height 0.3s ease);
+    max-height:0;
+    overflow:hidden;
+    display:block;
+  }
+}
+
