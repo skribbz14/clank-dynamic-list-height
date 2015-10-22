@@ -21,7 +21,7 @@ If you would prefer to not use the default 'opened' class and would like to spec
 The above example will output the style below.
 
 ```css
-<style>.example_menu.opened { max-height:XXpx }</style> 
+<style>.example_menu.enabled { max-height:XXpx }</style> 
 ```
 
 ## Breakpoint
